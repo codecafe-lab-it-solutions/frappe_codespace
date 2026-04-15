@@ -2,7 +2,7 @@
 
 It's ridiculously easy - 
 
-![open-with-codespaces](https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new)
 
 Setup happens in two steps - 
 1. Github will first create a codespace
