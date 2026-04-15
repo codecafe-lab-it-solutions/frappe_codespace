@@ -11,16 +11,18 @@ fi
 rm -rf /workspaces/frappe_codespace/.git
 
 source /home/frappe/.nvm/nvm.sh
-nvm install 22
-nvm alias default 22
-nvm use 22
+nvm install 24
+nvm alias default 24
+nvm use 24
 
 npm install -g yarn
 
-echo "nvm use 18" >> ~/.bashrc
+echo "nvm use 24" >> ~/.bashrc
 cd /workspace
 
 bench init \
+--python 3.14 \
+--frappe-branch version-16 \
 --ignore-exist \
 --skip-redis-config-generation \
 frappe-bench
