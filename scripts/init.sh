@@ -16,10 +16,10 @@ echo "Installing pre-commit..."
 uv tool install pre-commit
 
 bench init \
---python 3.14 \
---frappe-branch version-16 \
+--version v16.23.0 \
 --ignore-exist \
 --skip-redis-config-generation \
+--dev \
 frappe-bench
 
 cd frappe-bench
@@ -41,6 +41,6 @@ bench new-site dev.localhost \
 --admin-password admin \
 --mariadb-user-host-login-scope '%'
 
-bench --site dev.localhost set-config developer_mode 1
+bench --site dev.localhost set-config mute_emails 1
 bench --site dev.localhost clear-cache
 bench use dev.localhost
