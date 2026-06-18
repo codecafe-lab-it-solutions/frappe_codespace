@@ -1,20 +1,15 @@
 {
   "name": "Frappe Bench",
-  "forwardPorts": [
-    8000,
-    9000,
-    6787
-  ],
+  "forwardPorts": [8000, 8080, 9000, 6787],
   "remoteUser": "frappe",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "ms-vscode.live-server",
-        "grapecity.gc-excelviewer",
-        "mtxr.sqltools",
-        "mtxr.sqltools-driver-mysql",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "Anthropic.claude-code",
+        "ms-vscode.vscode-typescript-next",
+        "Vue.volar"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",

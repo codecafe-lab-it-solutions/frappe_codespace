@@ -1,0 +1,9 @@
+# Default: normalize line endings on commit, use OS native on checkout
+* text=auto
+
+# Shell scripts must always use LF
+*.sh text eol=lf
+
+# Devcontainer configs use LF
+docker-compose*.yml text eol=lf
+.devcontainer/*.json text eol=lf

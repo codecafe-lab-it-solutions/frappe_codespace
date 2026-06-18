@@ -29,6 +29,7 @@ services:
     working_dir: /workspace/frappe-bench
     ports:
       - 8000-8005:8000-8005
+      - 8080-8085:8080-8085
       - 9000-9005:9000-9005
 
 volumes:
