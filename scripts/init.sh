@@ -12,6 +12,9 @@ rm -rf /workspaces/frappe_codespace/.git
 
 cd /workspace
 
+echo "Installing pre-commit..."
+uv tool install pre-commit
+
 bench init \
 --python 3.14 \
 --frappe-branch version-16 \
