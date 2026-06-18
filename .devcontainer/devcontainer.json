@@ -2,6 +2,7 @@
   "name": "Frappe Bench",
   "forwardPorts": [
     8000,
+    8080,
     9000,
     6787
   ],
